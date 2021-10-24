@@ -28,6 +28,7 @@ export function MessageList() {
 			}
 		}, 3000);
 	}, []);
+
 	useEffect(() => {
 		async function fetchMessages() {
 			const messagesResponse = await api.get<MessageProps[]>("/message/last3");

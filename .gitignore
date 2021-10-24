@@ -75,3 +75,4 @@ web-build/
 # @end expo-cliandrioi
 ios/**
 android/**
+.env
